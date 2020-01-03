@@ -61,6 +61,6 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   #to run the server on local ports
-  config.ports.clear
+  config.hosts.clear
 
 end
